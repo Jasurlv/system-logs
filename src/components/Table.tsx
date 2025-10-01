@@ -146,8 +146,8 @@ function Table() {
           <Spinner />
         ) : (
           <>
-            <table className="w-full text-sm text-gray-500 dark:text-gray-400">
-              <thead className="text-xs text-gray-700 uppercase dark:bg-gray-700 dark:text-gray-400">
+            <table className="w-full text-sm text-gray-500">
+              <thead className="text-xs text-gray-700 uppercase">
                 <tr className="text-left">
                   <th className="px-4 py-3 pl-0">Owner</th>
                   <th className="px-4 py-3">Log Text</th>
@@ -160,7 +160,7 @@ function Table() {
                 {paginatedLogs.map((log) => (
                   <tr
                     key={log.id}
-                    className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600"
+                    className="bg-white border-b border-gray-200 hover:bg-gray-50"
                   >
                     <td className="px-4 py-3 pl-0 text-sm">{log.owner}</td>
                     <td className="px-4 py-3 max-w-xs text-sm"><span className="line-clamp-2" title={log.text}>{log.text}</span></td>
