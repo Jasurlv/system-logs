@@ -29,7 +29,7 @@ function Table() {
   const [page, setPage] = useState(1);
   const logsPerPage = 10;
 
-  const API = import.meta.env.VITE_API_URL ;
+  const API = import.meta.env.VITE_API_URL + '/logs';
 
 
   useEffect(() => {
