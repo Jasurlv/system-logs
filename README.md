@@ -44,6 +44,10 @@ Includes **Cypress E2E tests** and ready for deployment on **Vercel (frontend)**
 
 ---
 
+## Live Demo ✨
+
+https://system-logs-ten.vercel.app/
+
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repo
